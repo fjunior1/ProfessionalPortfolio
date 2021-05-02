@@ -113,7 +113,7 @@ header a:hover {
   align-items:center;
   background-size: contain;
   height:300px;
-  border: 5px solid rgb(40, 85, 211);
+  border: 5px solid mediumturquoise;
   margin: 10px;
 }
 
@@ -129,7 +129,7 @@ header a:hover {
   width: 47%;
   background-size: contain;
   height:225px;
-  border: 5px solid rgb(238, 38, 38);
+  border: 5px solid mediumturquoise;
   margin: 10px;
 }
 
@@ -147,7 +147,7 @@ header a:hover {
 }
 
 .detailPrj{
-   color:black;
+   color:rgb(97, 97, 97);
    font-size: 14px;
    margin-top:3px;
 }
