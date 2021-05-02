@@ -1,4 +1,7 @@
 
+body {
+  background-color: rgb(255, 230, 203);
+}
 header {
   display: flex;
   justify-content: space-between;
@@ -118,7 +121,7 @@ header a:hover {
 }
 
 .mainPrj:hover {
-  opacity: 0.5;
+  opacity: 0.85;
 }
 
 .mainPrj .innerWrap{
