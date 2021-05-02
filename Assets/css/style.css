@@ -86,7 +86,7 @@ header a:hover {
 
 /* left area is the titlesection, big text, aligned to the right of the container*/
 .titleSection {
-  flex: 15%;
+  flex: 10%;
   padding-right: 5px;
   font-size:20px;
   text-align:right;
@@ -101,7 +101,7 @@ header a:hover {
 }
 
 .contentSection {
-  flex:85%;
+  flex:90%;
   padding-left:5px;
   align-content:center;
   min-height: 120px;
