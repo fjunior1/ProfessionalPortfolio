@@ -2,6 +2,7 @@
 body {
   background-color: rgb(255, 230, 203);
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -19,6 +20,7 @@ header h1 {
     padding: 12px;
 }
 
+/*top navigation area to the right, no decoration and no padding*/
 header nav {
   float: right;
   text-decoration: none;
@@ -31,6 +33,7 @@ header ul {
   margin-right: 15px;
 }
 
+/* nav links margin, no underline for links aligned horizontally */
 header ul li {
   list-style-type: none;
   display: inline-block;
@@ -47,6 +50,7 @@ header a{
   vertical-align: bottom;
 }
 
+/* hover over links changes their color */
 header a:hover {
   color:turquoise;
 }
@@ -71,12 +75,16 @@ header a:hover {
   float: right ;
 }
 
+/* all sections have a left( titlesection and right(contentsection) areas
+  all sections have a margin at the bottom to separate them*/
 .section {
   display:flex;
   height:100%;
   margin-bottom:10px;
   
 }
+
+/* left area is the titlesection, big text, aligned to the right of the container*/
 .titleSection {
   flex: 15%;
   padding-right: 5px;
@@ -100,6 +108,7 @@ header a:hover {
   border-left: 4px solid rgb(58, 58, 58);
 }
 
+/* links in the projects section not underlined */
 .prjs a {
   text-decoration:none;
 }
@@ -110,7 +119,7 @@ header a:hover {
   justify-content: space-between;
 }
 
-
+/* main projects are 100 wide to the container and taller */
 .mainPrj {
   width:100%;
   align-items:center;
@@ -128,6 +137,7 @@ header a:hover {
   top: 190px;
 }
 
+/*secondary projects are 50% wide and less tall than main projects*/
 .secPrj{
   width: 47%;
   background-size: contain;
@@ -141,12 +151,11 @@ header a:hover {
   opacity: 0.85;
 }
 
+/*name of projects to the right in bold*/
 .namePrj{
   color:rgb(97, 97, 97);
   font-size:28px ;
   font-weight: bold;
-
-  
 }
 
 .detailPrj{
@@ -155,6 +164,8 @@ header a:hover {
    margin-top:3px;
 }
 
+/*inner wrap is a container inside the project areas to the left that show the project name
+and some details */
 .innerWrap{
   background-color:mediumturquoise;
   max-width:150px;
