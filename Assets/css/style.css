@@ -52,7 +52,7 @@ header a:hover {
 }
 
 .subHeader{
-  height:100px;
+  height:200px;
   margin-bottom:5px;
  
 }
@@ -66,7 +66,7 @@ header a:hover {
   margin-right: 25px;
   font-size: 28px;
   position: relative;
-  top: 50px;
+  top: 130px;
   right: 0;
   float: right ;
 }
@@ -115,7 +115,7 @@ header a:hover {
   width:100%;
   align-items:center;
   background-size: contain;
-  height:300px;
+  height:350px;
   border: 5px solid mediumturquoise;
   margin: 10px;
 }
@@ -125,7 +125,7 @@ header a:hover {
 }
 
 .mainPrj .innerWrap{
-  top: 40px;
+  top: 190px;
 }
 
 .secPrj{
@@ -138,7 +138,7 @@ header a:hover {
 
 
 .secPrj:hover {
-  opacity: 0.5;
+  opacity: 0.85;
 }
 
 .namePrj{
@@ -158,10 +158,10 @@ header a:hover {
 .innerWrap{
   background-color:mediumturquoise;
   max-width:150px;
-  height: 75px;
+  height: 70px;
   padding-left:5px;
   position: relative;
-  top: 95px;
+  top: 120px;
 }
 
 .contactSection *{
