@@ -1,0 +1,170 @@
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  
+  background-color:dimgrey;
+  color:skyblue;  
+
+}
+
+header h1 {
+    background-color:lightblue;
+    color:dimgrey;
+    font-size:48px;
+    padding: 12px;
+}
+
+header nav {
+  float: right;
+  text-decoration: none;
+  margin:0px;
+  padding:0px;
+}
+
+header ul {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+header ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin-left: 25px;
+  font-size: larger;
+  font-weight: bold;
+
+}
+
+header a{
+  color:skyblue;
+  white-space: nowrap;  
+  text-decoration:none;
+  vertical-align: bottom;
+}
+
+header a:hover {
+  color:turquoise;
+}
+
+.subHeader{
+  height:100px;
+  margin-bottom:5px;
+ 
+}
+
+.subHeader div{
+  background-color:mediumturquoise;
+  height: 40px;
+  width:fit-content;
+  padding-left:5px;
+  padding-right:5px;
+  margin-right: 25px;
+  font-size: 28px;
+  position: relative;
+  top: 50px;
+  right: 0;
+  float: right ;
+}
+
+.section {
+  display:flex;
+  height:100%;
+  margin-bottom:10px;
+  
+}
+.titleSection {
+  flex: 15%;
+  padding-right: 5px;
+  font-size:20px;
+  text-align:right;
+  min-width:130px;
+  word-wrap: normal;
+
+}
+
+.aboutSection {
+  font-size: larger;
+ 
+}
+
+.contentSection {
+  flex:85%;
+  padding-left:5px;
+  align-content:center;
+  min-height: 120px;
+  border-left: 4px solid rgb(58, 58, 58);
+}
+
+.prjs a {
+  text-decoration:none;
+}
+
+.prjs {
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+
+.mainPrj {
+  width:100%;
+  align-items:center;
+  background-size: contain;
+  height:300px;
+  border: 5px solid rgb(40, 85, 211);
+  margin: 10px;
+}
+
+.mainPrj:hover {
+  opacity: 0.5;
+}
+
+.mainPrj .innerWrap{
+  top: 40px;
+}
+
+.secPrj{
+  width: 47%;
+  background-size: contain;
+  height:225px;
+  border: 5px solid rgb(238, 38, 38);
+  margin: 10px;
+}
+
+
+.secPrj:hover {
+  opacity: 0.5;
+}
+
+.namePrj{
+  color:rgb(97, 97, 97);
+  font-size:28px ;
+  font-weight: bold;
+
+  
+}
+
+.detailPrj{
+   color:black;
+   font-size: 14px;
+   margin-top:3px;
+}
+
+.innerWrap{
+  background-color:mediumturquoise;
+  max-width:150px;
+  height: 75px;
+  padding-left:5px;
+  position: relative;
+  top: 95px;
+}
+
+.contactSection *{
+  font-size:28px;
+  margin-left:65px;
+  align-items:center;
+  color:black;
+  text-decoration:underline;
+}
