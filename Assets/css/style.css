@@ -154,13 +154,13 @@ header a:hover {
 /*name of projects to the right in bold*/
 .namePrj{
   color:rgb(97, 97, 97);
-  font-size:28px ;
+  font-size:24px ;
   font-weight: bold;
 }
 
 .detailPrj{
    color:rgb(97, 97, 97);
-   font-size: 14px;
+   font-size: 12px;
    margin-top:3px;
 }
 
@@ -175,9 +175,12 @@ and some details */
   top: 120px;
 }
 
-.contactSection *{
+.contactSection.contentSection *{
   font-size:28px;
+  min-width: 310px;
   margin-left:65px;
+  margin-top: 15px;
+  padding-top:35px;
   align-items:center;
   color:black;
   text-decoration:underline;
