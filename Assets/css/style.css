@@ -1,6 +1,6 @@
 
 body {
-  background-color: rgb(255, 230, 203);
+  background-color: rgb(241, 248, 255);
 }
 
 header {
@@ -154,7 +154,7 @@ header a:hover {
 /*name of projects to the right in bold*/
 .namePrj{
   color:rgb(97, 97, 97);
-  font-size:24px ;
+  font-size:20px ;
   font-weight: bold;
 }
 
