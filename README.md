@@ -1,9 +1,6 @@
 # hw2-professional Portfolio
 This is HW2 create a professional portfolio to show work to potential employers and business partners
 
-# hw2-professional Portfolio
-This is HW2 create a professional portfolio to show work to potential employers and business partners.
-
 ## Content
 The page contains the project links, pictures of the html files, link to my resume, small Bio and contact information.
 
